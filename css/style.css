@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+}
+
+/* fixed sirve para fijar las cajas con medidas en pixeles */
+.caja1{
+    background-color: beige;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 350px;
+    bottom: 350px;
+}
+
+/* static es la posicion por defecto */
+.caja2{
+    background-color: coral;
+    width: 150px;
+    height: 150px;
+    position: static;
+    left: 200px;
+    top: 200px;
+     transform: rotate(45deg); /*deg es grados*/
+}
+
+/*(para padres) toma como referencia la caja anterior para cambiar con respecto al elemento anterio */
+.caja3{
+    background-color: darkcyan;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* Tiene que tener position relative */
+.caja3-1{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/*(para hijos) Esta si toma como referencia la caja que lo contiene, ya sea un div o un body */
+.caja4{
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+
+}
+
+/* hacer pruebas */
+.caja5{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+.sombrero1{
+    background-color: blueviolet;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    
+}
+
+.sombrero2{
+    background-color: blueviolet;
+    width: 300px;
+    height: 30px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    top: 145px;
+    left: 310px;
+}
+
+.cara1 {
+    background-color: whitesmoke;
+    border: 4px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 140px;
+    left: 370px;
+}
+
+.ojo1{
+    border: 3px black solid;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.ojo2{
+    border: 3px black solid;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.iris1{
+    background-color: black;
+    border: 3px black solid;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.iris2{
+    background-color: black;
+    border: 3px black solid;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.boca{
+    background-color:red;
+    width: 70px;
+    height: 5px;
+    border: 1px solid red;
+    border-radius: 50px;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+.cuerpo {
+    background-color: whitesmoke;
+    width: 280px;
+    height: 280px;
+    border: 5px solid;
+    border-radius: 50%;
+    position: relative;
+    top: 139px;
+    left: 298px;
+}
+.b1{
+    border: 3px black solid;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 130px;
+}
+
+.b2{
+    border: 3px black solid;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 130px;
+}
+
+.b3{
+    border: 3px black solid;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+
+.piernas{
+    background-color: whitesmoke;
+    width: 450px;
+    height: 300px;
+    border: 5px solid;
+    border-radius: 50%;
+    position: relative;
+    top: 139px;
+    left: 230px;
+    text-align: center;
+}
+p{
+    margin: 50px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.brazo1{
+    background-color: chocolate;
+    width: 300px;
+    height: 20px;
+    border: 5px solid chocolate;
+    border-radius: 50px;
+    position: absolute;
+    transform: rotate(30deg);
+    top: 320px;
+    left: 12px;
+}
+.brazo2{
+    background-color: chocolate;
+    width: 300px;
+    height: 20px;
+    border: 5px solid chocolate;
+    border-radius: 50px;
+    position: absolute;
+    transform: rotate(150deg);
+    top: 320px;
+    left: 560px;
+}
+
+.nariz{
+    background-color:whi;
+    width: 0px;
+    height: 0px;
+    border-left: 90px solid red;
+    border-top: 20px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
